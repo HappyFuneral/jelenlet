@@ -12,14 +12,6 @@ class AttendanceModelSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\User::factory()->create([
-            'name' => 'Milán'
-       ]);
-       \App\Models\User::factory()->create([
-        'name' => 'Csongor'
-    ]);
-    \App\Models\User::factory()->create([
-    'name' => 'Csaba'
-    ]);
+
     }
 }

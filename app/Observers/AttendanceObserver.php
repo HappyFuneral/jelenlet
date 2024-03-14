@@ -9,7 +9,7 @@ class AttendanceObserver
     /**
      * Handle the AttendanceModel "created" event.
      */
-    public function created(AttendanceModel $attendanceModel): void
+    public function creating(AttendanceModel $attendanceModel): void
     {
         //
     }
